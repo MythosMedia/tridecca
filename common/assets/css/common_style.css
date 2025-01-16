@@ -208,11 +208,11 @@ small.text {
   top: 0;
   width: 100vw;
   height: 110vh;
-  fill: #F1EEE9; }
+  fill: #E9EFE9; }
 
 .loader-wrap .loader-wrap-heading .load-text {
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 30px;
+  font-weight: 600;
   letter-spacing: 10px;
   text-transform: uppercase;
   color:#48A64B;
