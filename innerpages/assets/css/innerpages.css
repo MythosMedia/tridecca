@@ -2375,9 +2375,9 @@
       transition-delay: 0.4s;
       opacity: 0; }
       .services-pg-style1 .tc-process-style1 .img.animated {
-        -webkit-transform: rotate(15deg) scale(1);
-        -ms-transform: rotate(15deg) scale(1);
-        transform: rotate(15deg) scale(1);
+        -webkit-transform: rotate(0) scale(1);
+        -ms-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
         opacity: 1; }
   @media screen and (max-width: 991px) {
     .services-pg-style1 .tc-process-style1 {
