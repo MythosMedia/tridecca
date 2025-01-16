@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* ========= [ * global ]  =========*/
 /* --------------- global --------------- */
 *,
@@ -21,7 +22,6 @@ html::-webkit-scrollbar-corner {
   border-radius: 10px; }
 
 body {
-  font-family: "Inter", sans-serif;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 500;

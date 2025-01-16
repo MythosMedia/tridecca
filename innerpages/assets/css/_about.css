@@ -14,7 +14,9 @@
     width: 100%;
     z-index: 99; }
     .about-pg-style1 .inner-navbar-style1 .navbar-nav .nav-link {
-      color: #fff; }
+      color: #fff; 
+    
+    }
     .about-pg-style1 .inner-navbar-style1 .nav-side a {
       color: #fff; }
   @media screen and (max-width: 991px) {
