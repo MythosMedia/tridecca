@@ -164,7 +164,11 @@
 /* --------------- inner-navbar-style1 --------------- */
 .inner-navbar-style1 {
   position: relative;
-  padding: 8px 4vw; }
+  padding: 8px 4vw; 
+  @media screen and (max-width: 991px){
+    /* background-color: #484848; */
+  }
+}
   .inner-navbar-style1 .logo {
     width: 100px; }
   .inner-navbar-style1 .navbar-nav .nav-link {
@@ -1530,7 +1534,7 @@
   @media screen and (max-width: 991px) {
     .about-pg-style1 .inner-navbar-style1 {
       position: relative;
-      background-color: #000;
+      background-color: #3aa548;
       padding: 15px; } }
   .about-pg-style1 .tc-header-preview {
     position: relative; }
