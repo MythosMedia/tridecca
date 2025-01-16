@@ -12,7 +12,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .tc-navbar-style7 .logo-side .logo {
-      height: 50px; }
+      height: 90px; }
     .tc-navbar-style7 .logo-side .links {
       -webkit-margin-start: 80px;
       margin-inline-start: 80px; }
@@ -233,7 +233,7 @@
           color: var(--color-green1);
           font-size: 18px; }
       .tc-services-style7 .content .service-card .text {
-        min-height: 105px;
+        /* min-height: 105px; */
         font-size: 19px;
         display: -webkit-box;
         display: -ms-flexbox;

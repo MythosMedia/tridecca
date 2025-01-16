@@ -196,7 +196,7 @@ small.text {
     position: relative;
     z-index: 444; }
     .loader-wrap .text-center .logo {
-      width: 50px;
+      width: 100px;
       margin-bottom: 30px; }
 
 .loader-wrap svg {
@@ -211,7 +211,7 @@ small.text {
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
-  color: #000;
+  color:#48A64B;
   z-index: 20; }
 
 .load-text span {
@@ -279,9 +279,18 @@ small.text {
   height: 5px;
   z-index: 10000001;
   background-color: #0379a455;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
   opacity: 1; }
 
 .cursor-inner.cursor-hover {
@@ -297,9 +306,21 @@ small.text {
   box-sizing: border-box;
   opacity: .5;
   z-index: 10000000;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
   opacity: 1; }
 
 .cursor-outer.cursor-hover {
@@ -1630,7 +1651,7 @@ input:focus {
   --color-blue1:#4b3ec4;
   --color-orange1:#FF481F;
   --color-yellow1:#FF9900;
-  --color-green1:#689210;
+  --color-green1:#48A64B;
   --color-brown1:#E5C696;
   --color-brown2:#7D764D;
   --color-light1:#eff3f6; }
