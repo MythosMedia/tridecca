@@ -344,7 +344,7 @@
     .portfolio-pg-style1 .tc-latest-cases-style1 .filter .links a.active {
       color: var(--color-orange1); }
   .portfolio-pg-style1 .tc-latest-cases-style1 .content {
-    padding: 150px 0;
+    padding: 0px 0 15px;
     border-top: 1px solid #ccc; }
     .portfolio-pg-style1 .tc-latest-cases-style1 .content .case-card {
       position: relative;
