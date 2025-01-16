@@ -474,7 +474,7 @@
   .tc-testimonials-style7 .testi-card {
     text-align: center; }
     .tc-testimonials-style7 .testi-card h4 {
-      font-size: 60px;
+      font-size: 40px;
       line-height: 72px;
       color: #000; }
 
@@ -548,7 +548,7 @@
           line-height: 60px;
           margin-bottom: 10px;
           font-weight: 400;
-          font-family: 'Instrument Serif', serif; }
+           }
         .tc-blog-style7 .sub-posts .post-card .date small {
           font-size: 12px;
           line-height: 18px;
@@ -722,7 +722,7 @@
     overflow: hidden; } }
 
 .home-style7 .sub-font {
-  font-family: 'Instrument Serif', serif; }
+  font-family: "Montserrat", serif; }
 
 @media screen and (max-width: 991px) {
   .home-style7 br {
