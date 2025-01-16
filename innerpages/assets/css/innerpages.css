@@ -177,6 +177,9 @@
   &:hover{
     color: var(--color-orange1);
   }
+  &.active{
+    color:var(--color-orange1);
+  }
   }
   .inner-navbar-style1 .nav-side {
     position: relative; }
