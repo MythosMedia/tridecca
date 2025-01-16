@@ -22,6 +22,10 @@ html::-webkit-scrollbar-corner {
 
 body {
   font-family: "Inter", sans-serif;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   text-decoration: none;
   font-size: 14px;
   overflow-x: hidden;
@@ -383,8 +387,8 @@ input:focus {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #999;
-  border: 1px solid #999;
+  color: #123E39;
+  border: 1px solid #123E39;
   font-size: 11px;
   text-align: center;
   padding: 7px;
@@ -1649,7 +1653,7 @@ input:focus {
 /* --------------- variable --------------- */
 :root {
   --color-blue1:#4b3ec4;
-  --color-orange1:#FF481F;
+  --color-orange1:#48A64B;
   --color-yellow1:#FF9900;
   --color-green1:#48A64B;
   --color-brown1:#E5C696;

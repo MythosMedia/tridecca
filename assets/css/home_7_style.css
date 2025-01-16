@@ -2,7 +2,7 @@
 /* --------------- navbar style7 --------------- */
 .tc-navbar-style7 {
   position: relative;
-  padding: 60px 5vw 30px;
+  padding: 30px 5vw 30px;
   border-top: 12px solid var(--color-green1); }
   .tc-navbar-style7 .logo-side {
     display: -webkit-box;
@@ -12,7 +12,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .tc-navbar-style7 .logo-side .logo {
-      height: 50px; }
+      height: 90px; }
     .tc-navbar-style7 .logo-side .links {
       -webkit-margin-start: 80px;
       margin-inline-start: 80px; }
@@ -371,9 +371,9 @@
   .tc-proccess-style7 .img {
     height: 550px;
     margin-top: 50px;
-    -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg); }
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0); }
     .tc-proccess-style7 .img img {
       position: absolute;
       left: 0;
@@ -383,9 +383,9 @@
       -o-object-fit: cover;
       object-fit: cover;
       opacity: 0;
-      -webkit-transform: rotate(-15deg);
-      -ms-transform: rotate(-15deg);
-      transform: rotate(-15deg);
+      -webkit-transform: rotate(-0);
+      -ms-transform: rotate(-0);
+      transform: rotate(-0);
       -webkit-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
       transition: all 0.7s ease;
@@ -660,7 +660,8 @@
     -ms-flex-align: center;
     align-items: center;
     padding: 10px 20px;
-    background-color: #597E0A;
+    background-color: #123E39;
+    color: white;
     margin-bottom: 20px; }
     .tc-footer-style7 .foot-subscribe .form-group .icon {
       -ms-flex-negative: 0;
