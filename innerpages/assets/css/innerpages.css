@@ -1871,6 +1871,7 @@
             z-index: 10;
             border: 1px solid #ccc;
             background-color: #F1EEE9;
+            color: #48a64b;
             border-radius: 15px;
             padding: 0 30px;
             text-transform: capitalize; }
@@ -1945,7 +1946,7 @@
             top: 65px;
             left: -65px;
             z-index: 10;
-            background-color: #000;
+            background-color: #48a64b;
             color: #fff;
             border-radius: 15px;
             padding: 5px 30px;
