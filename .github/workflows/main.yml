@@ -1,5 +1,5 @@
 on: push
-name: 🚀 Deploy website on Hollywoord Main
+name: 🚀 Deploy website on tridecca
 jobs:
   web-deploy:
     name: 🎉 Deploy
