@@ -392,8 +392,9 @@
     padding: 80px 0; }
     .portfolio-pg-style1 .tc-latest-cases-style1 .content .case-card {
       margin-bottom: 50px; }
-      .portfolio-pg-style1 .tc-latest-cases-style1 .content .case-card .img {
-        height: 250px; } }
+      /* .portfolio-pg-style1 .tc-latest-cases-style1 .content .case-card .img {
+        height: 250px; }  */
+      }
 
 /* --------------- footer style1 --------------- */
 .s-project-pg-style1 .tc-project-style1 .tags a {
@@ -2278,7 +2279,7 @@
         margin-bottom: 20px;
         font-size: 30px; }
       .services-pg-style1 .tc-services-style1 .service-card .img {
-        height: 160px;
+        /* height: 160px; */
         border-radius: 10px;
         overflow: hidden; }
       .services-pg-style1 .tc-services-style1 .service-card .arrow {
@@ -2398,7 +2399,8 @@
         -ms-transform: rotate(0);
         transform: rotate(0);
         margin-top: 50px;
-        height: 350px; } }
+        /* height: 350px;  */
+      } }
   .services-pg-style1 .tc-testimonials-style1 {
     position: relative;
     padding: 150px 0; }
