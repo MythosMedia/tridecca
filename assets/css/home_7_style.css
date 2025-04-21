@@ -744,3 +744,25 @@
     margin-top: 50px !important; }
   .home-style7 section {
     padding: 80px 0; } }
+
+
+    .tc-header-style7 h1 {
+      font-size: 5.5rem;
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .tc-header-style7 h1 {
+        font-size: 2rem;
+      }
+    
+      .head-features p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+    @media (max-width: 768px) {
+      .tc-about-nopadding {
+        padding-top: 0 !important; /* Or whatever your default desktop padding is */
+      }
+    }
