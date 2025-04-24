@@ -10,12 +10,14 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    /* justify-content: space-between;  */
+  }
     .tc-navbar-style7 .logo-side .logo {
       height: 90px; }
     .tc-navbar-style7 .logo-side .links {
-      -webkit-margin-start: 80px;
-      margin-inline-start: 80px; }
+      -webkit-margin-start: 40px;
+      margin-inline-start: 40px; 
+    }
       .tc-navbar-style7 .logo-side .links a {
         margin-bottom: 5px;
         font-weight: 500; }
@@ -766,3 +768,6 @@
         padding-top: 0 !important; /* Or whatever your default desktop padding is */
       }
     }
+
+
+    
