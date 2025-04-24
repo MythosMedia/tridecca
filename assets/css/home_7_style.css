@@ -372,7 +372,8 @@
       padding-inline-start: 60px; }
   .tc-proccess-style7 .img {
     height: 550px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    border-radius: 25px;
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
     transform: rotate(0); }
@@ -394,6 +395,7 @@
       z-index: 0; }
       .tc-proccess-style7 .img img.current {
         opacity: 1;
+        border-radius: 25px;
         -webkit-transform: rotate(0);
         -ms-transform: rotate(0);
         transform: rotate(0);
