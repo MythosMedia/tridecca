@@ -414,9 +414,10 @@
   .tc-proccess-style7 {
     overflow: hidden; }
     .tc-proccess-style7 .img {
-      width: 70vw;
-      -webkit-margin-start: 15vw;
-      margin-inline-start: 15vw;
+      border-radius: 12px;
+      /* width: 70vw; */
+      /* -webkit-margin-start: 15vw; */
+      /* margin-inline-start: 15vw; */
       height: 350px; } }
 
 /* --------------- testimonials style7 --------------- */
@@ -645,7 +646,7 @@
 /* --------------- footer style7 --------------- */
 .tc-footer-style7 {
   position: relative;
-  padding: 150px 0 10px;
+  padding: 80px 0 10px;
   background-color: var(--color-green1);
   color: #fff; }
   .tc-footer-style7 .links a {
