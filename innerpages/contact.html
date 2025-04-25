@@ -253,41 +253,39 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <form action="" class="form mt-5 mt-lg-0 wow fadeInUp slow" data-wow-delay="0.4s">
+                            <form action="sendmail.php" method="POST" class="form mt-5 mt-lg-0 wow fadeInUp slow" data-wow-delay="0.4s">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group mb-30">
-                                            <label for=""> Full name <span class="color-orange1"> * </span> </label>
-                                            <input type="text" class="form-control" placeholder="your name">
+                                            <label for="name"> Full name <span class="color-orange1"> * </span> </label>
+                                            <input type="text" name="name" class="form-control" placeholder="Your name" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-30">
-                                            <label for=""> email address <span class="color-orange1"> * </span> </label>
-                                            <input type="text" class="form-control" placeholder="Your email address">
+                                            <label for="email"> Email address <span class="color-orange1"> * </span> </label>
+                                            <input type="email" name="email" class="form-control" placeholder="Your email address" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group mb-30">
-                                            <label for=""> Phone <span class="color-999"> (optional) </span> </label>
-                                            <input type="text" class="form-control" placeholder="Your phone number">
+                                            <label for="phone"> Phone <span class="color-999"> (optional) </span> </label>
+                                            <input type="text" name="phone" class="form-control" placeholder="Your phone number">
                                         </div>
                                     </div>
-
                                     <div class="col-lg-12">
                                         <div class="form-group mb-30">
-                                            <label for=""> message </label>
-                                            <textarea rows="6" placeholder="Write your message here"
-                                                class="form-control"></textarea>
+                                            <label for="message"> Message </label>
+                                            <textarea name="message" rows="6" placeholder="Write your message here" class="form-control"></textarea>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" class="butn hover-bg-orange1 text-capitalize bg-white rounded-pill mt-40">
+                                <button type="submit" class="butn hover-bg-orange1 text-capitalize bg-white rounded-pill mt-40">
                                     <span> Send Your Message <i class="fal fa-arrow-up-right ms-2"></i> </span>
-                                </a>
-                                <p class="fsz-12 color-666 mt-20"> By summiting, i’m agree to the <a href="#"
-                                        class="color-000 text-decoration-underline"> Terms & Conditions </a> </p>
+                                </button>
+                                <p class="fsz-12 color-666 mt-20">By submitting, I agree to the <a href="#" class="color-000 text-decoration-underline">Terms & Conditions</a></p>
                             </form>
+                            
                         </div>
                     </div>
                 </div>
