@@ -1,7 +1,7 @@
 /* --------------- footer style7 --------------- */
 .tc-footer-style7 {
     position: relative;
-    padding: 150px 0;
+    padding: 150px 60px;
     background-color: var(--color-green1);
     color: #fff;
 
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 991px) {
     .tc-footer-style7 {
-        padding: 80px 0;
+        padding: 80px 60px;
         overflow: hidden;
     }
 }

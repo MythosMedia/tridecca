@@ -2,8 +2,7 @@
 /* --------------- navbar style7 --------------- */
 .tc-navbar-style7 {
   position: relative;
-  padding: 30px 5vw 30px;
-  border-top: 12px solid var(--color-green1); }
+  padding: 30px 5vw 30px; }
   .tc-navbar-style7 .logo-side {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -648,7 +647,7 @@
 /* --------------- footer style7 --------------- */
 .tc-footer-style7 {
   position: relative;
-  padding: 80px 0 10px;
+  padding: 80px 0 60px;
   background-color: var(--color-green1);
   color: #fff; }
   .tc-footer-style7 .links a {
