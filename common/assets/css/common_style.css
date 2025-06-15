@@ -1792,3 +1792,40 @@ input:focus {
   color: #fff !important; }
   .hover-bg-black:hover * {
     color: #fff; }
+
+        /* Dropdown on hover with slide animation */
+.nav-item.hover-dropdown {
+  position: relative;
+}
+
+.nav-item.hover-dropdown .dropdown-animated {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+  z-index: 9999;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+/* Show dropdown on hover */
+.nav-item.hover-dropdown:hover .dropdown-animated {
+  display: block;
+  max-height: 500px; /* Adjust height based on number of items */
+}
+
+.dropdown-animated li a:hover {
+  background-color: #f0f0f0; /* light gray */
+  color: #000; /* optional: keep text black */
+}
+
+.dropdown-animated li a {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
