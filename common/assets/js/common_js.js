@@ -165,5 +165,15 @@ $(window).on("load", function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("sidebarLocationToggle");
+  const menu = document.getElementById("sidebarLocationMenu");
 
+  if (toggle && menu) {
+    toggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      menu.classList.toggle("show");
+    });
+  }
+});
 
