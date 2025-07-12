@@ -195,8 +195,8 @@
 
     <!-- JS Scripts -->
     <script>
-        const wpApiBase = 'https://blog.trideccacontracting.com/wp-json/wp/v2/posts?_embed&slug=';
-
+        // const wpApiBase = 'https://blog.trideccacontracting.com/wp-json/wp/v2/posts?_embed&slug=';
+        const wpApiBase = '/blog-proxy.php?slug=';
         function getSlug() {
             const params = new URLSearchParams(window.location.search);
             return params.get('slug');
