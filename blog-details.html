@@ -214,7 +214,9 @@
                     const post = data[0];
                     const title = post.title.rendered;
                     const content = post.content.rendered;
-                    const image = post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].source_url : 'assets/img/blog2.webp';
+                    const excerptHtml = post.excerpt?.rendered || "";
+                    const image = excerptHtml.match(/https:\/\/[^<]+\.jpg/)?.[0] || "";
+
                     const date = new Date(post.date).toLocaleDateString('en-US', {
                         year: 'numeric', month: 'long', day: 'numeric'
                     });
