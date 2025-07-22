@@ -253,21 +253,15 @@
                     const category = post._embedded['wp:term']?.[0]?.[0]?.name || 'News';
 
                     const html = `
-                        <div class="breadcromb blogs-details mb-20">
-                            <a href="index.html">Home</a> <span class="icon">/</span>
-                            <a href="blog.html">News</a> <span class="icon">/</span>
-                            <span>${title}</span>
-                        </div>
-
-                        <div class="main-img mb-40">
+                        <div class="main-img mb-20">
                             <img src="${image}" alt="${title}" class="img-cover radius-6">
                         </div>
 
-                        <div class="fsz-12 text-uppercase mb-3">
+                        <div class="fsz-12 text-uppercase">
                             <a href="#">${category}</a> · <a href="#">${date}</a>
                         </div>
 
-                        <div class="text fsz-14 color-666">
+                        <div class="text fsz-14 color-666" style="margin-top:-50px">
                             ${content}
                         </div>
                     `;

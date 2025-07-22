@@ -2021,7 +2021,7 @@
       text-transform: capitalize;
       color: #666; }
       .about-pg-style1 .tc-projects-style2 .tabs-links .nav-pills .nav-link.active, .about-pg-style1 .tc-projects-style2 .tabs-links .nav-pills .nav-link:hover {
-        color: #000; }
+        color: var(--color-orange1) }
     .about-pg-style1 .tc-projects-style2 .projects-slider-content {
       padding: 0 3vw;
       position: relative;

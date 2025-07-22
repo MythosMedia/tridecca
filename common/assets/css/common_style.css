@@ -2408,41 +2408,14 @@ input:focus {
 }
 
 /* ===== Real Estate Carousel ===== */
-.real-estate-carousel {
-  padding: 20px;
-  border: none;
-  /* background-color: #f5f5f5; */
-}
-
-.real-estate-carousel .scroll-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 30px;
-  padding-top: 80px;
-  padding-bottom: 100px;
-  scroll-snap-type: x mandatory;
-
-  /* Firefox scrollbar */
-  scrollbar-width: thin;
-  scrollbar-color: green transparent;
-}
-
-.real-estate-carousel .scroll-container::-webkit-scrollbar {
-  height: 2px;
-}
-
-.real-estate-carousel .scroll-container::-webkit-scrollbar-thumb {
-  background: green;
-  border-radius: 10px;
-}
-
-/* ===== Project Management Carousel (same design) ===== */
+/* ===== Real Estate Carousel ===== */
+.real-estate-carousel,
 .project-management-carousel {
   padding: 20px;
   border: none;
-  /* background-color: #f0f0f0; */
 }
 
+.real-estate-carousel .scroll-container,
 .project-management-carousel .scroll-container {
   display: flex;
   overflow-x: auto;
@@ -2450,18 +2423,18 @@ input:focus {
   padding-top: 80px;
   padding-bottom: 100px;
   scroll-snap-type: x mandatory;
-
-  /* Firefox scrollbar */
   scrollbar-width: thin;
   scrollbar-color: green transparent;
 }
 
+.real-estate-carousel .scroll-container::-webkit-scrollbar,
 .project-management-carousel .scroll-container::-webkit-scrollbar {
   height: 2px;
 }
 
+.real-estate-carousel .scroll-container::-webkit-scrollbar-thumb,
 .project-management-carousel .scroll-container::-webkit-scrollbar-thumb {
-   background: green;
+  background: green;
   border-radius: 10px;
 }
 
@@ -2471,21 +2444,37 @@ input:focus {
   width: 32%;
   height: 650px;
   flex-shrink: 0;
-  overflow: hidden;
   scroll-snap-align: start;
   border-radius: 24px;
+  overflow: hidden;
   border: none;
+  transition: width 0.3s, height 0.3s;
+}
+
+.card .image-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
+/* Overlay film */
+.overlay-film {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/* Top-left cutout */
 .card .top-left-cutout {
   position: absolute;
-  border: none;
   top: 0;
   left: 0;
   width: 175px;
@@ -2493,30 +2482,28 @@ input:focus {
   background: white;
   border-bottom-right-radius: 40px;
   z-index: 2;
-  
-  /* Reverse cutout effect */
-  border-top-right-radius: -60px -40px;
-  border-bottom-left-radius: -60px -40px;
+  /* Remove invalid border radius */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+/* Year label */
 .card .year-label {
   position: absolute;
-  border: none;
   top: 43px;
   left: 60px;
   background-color: white;
   color: black;
   padding: 5px 12px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 999px;
-  z-index: 3;
+  z-index: 4;
 }
 
+/* Tag */
 .card .tag {
   position: absolute;
   bottom: 100px;
-  border: none;
   left: 20px;
   background-color: white;
   color: #111;
@@ -2524,17 +2511,112 @@ input:focus {
   padding: 6px 12px;
   border-radius: 999px;
   font-weight: 500;
-  z-index: 2;
+  z-index: 3;
 }
 
+/* Title */
 .card .title {
   position: absolute;
-  font-size:x-large;
   bottom: 60px;
-  border: none;
   left: 20px;
-  color: rgb(235, 235, 235);
-  /* font-size: 18px; */
-  /* font-weight: bold; */
-  z-index: 2;
+  color: white;
+  font-size: x-large;
+  z-index: 3;
+}
+
+/* Scroll wrapper & buttons */
+.scroll-wrapper {
+  position: relative;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.swiper-button-prev {
+  left: 0px;
+}
+
+.swiper-button-next {
+  right: 0px;
+}
+
+/* ===== Responsive Breakpoints ===== */
+@media (max-width: 1200px) {
+  .card {
+    width: 40%;
+    height: 550px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 48%;
+    height: 500px;
+  }
+
+  .card .year-label {
+    font-size: 14px;
+    top: 35px;
+    left: 50px;
+  }
+
+  .card .tag {
+    font-size: 12px;
+    bottom: 80px;
+  }
+
+  .card .title {
+    font-size: 1.1rem;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 70%;
+    height: 450px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 90%;
+    height: 400px;
+  }
+
+  .card .year-label {
+    font-size: 13px;
+    left: 40px;
+  }
+
+  .card .tag {
+    font-size: 11px;
+    bottom: 70px;
+  }
+
+  .card .title {
+    font-size: 1rem;
+    bottom: 40px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
 }
