@@ -2408,7 +2408,6 @@ input:focus {
 }
 
 /* ===== Real Estate Carousel ===== */
-/* ===== Real Estate Carousel ===== */
 .real-estate-carousel,
 .project-management-carousel {
   padding: 20px;
@@ -2526,6 +2525,8 @@ input:focus {
 
 /* Scroll wrapper & buttons */
 .scroll-wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
   position: relative;
 }
 
@@ -2545,10 +2546,12 @@ input:focus {
 
 .swiper-button-prev {
   left: 0px;
+  color: black;
 }
 
 .swiper-button-next {
   right: 0px;
+  color: black;
 }
 
 /* ===== Responsive Breakpoints ===== */
