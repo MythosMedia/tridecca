@@ -2424,6 +2424,8 @@ input:focus {
   scroll-snap-type: x mandatory;
   scrollbar-width: thin;
   scrollbar-color: green transparent;
+  scroll-padding-left: 10px;
+  justify-content: flex-start;
 }
 
 .real-estate-carousel .scroll-container::-webkit-scrollbar,
@@ -2443,7 +2445,7 @@ input:focus {
   width: 32%;
   height: 650px;
   flex-shrink: 0;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   border-radius: 24px;
   overflow: hidden;
   border: none;
@@ -2593,7 +2595,8 @@ input:focus {
 
   .swiper-button-prev,
   .swiper-button-next {
-    display: none;
+    font-size: 1.5rem;
+    display: block;
   }
 }
 
@@ -2620,6 +2623,7 @@ input:focus {
 
   .swiper-button-prev,
   .swiper-button-next {
-    display: none;
+    font-size: 1.25rem;
+    display: block;
   }
 }
