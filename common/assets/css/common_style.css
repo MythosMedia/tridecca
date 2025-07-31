@@ -937,6 +937,11 @@ input:focus {
   margin-inline-end: 200px !important;
 }
 
+.mx-100 {
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+}
+
 /* --------------- padding classes --------------- */
 .p-10 {
   padding: 10px !important;
@@ -1886,6 +1891,10 @@ input:focus {
 }
 
 .fsz-30 {
+  font-size: 30px !important;
+}
+
+.fszb-30 {
   font-size: 30px !important;
 }
 

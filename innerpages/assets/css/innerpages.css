@@ -2591,6 +2591,12 @@
     margin-bottom: 40px !important; }
   .inner-pages-style1 .fsz-30 {
     font-size: 18px !important; }
+  .inner-pages-style1 .fszb-30 {
+    font-size: 25px !important; }
+  .inner-pages-style1 .mx-100 {
+      margin-left: 20px !important; 
+      margin-right: 20px !important;
+    }
   .inner-pages-style1 .tc-inner-header-style1 h1 {
     font-size: 70px;
     line-height: 100px;
