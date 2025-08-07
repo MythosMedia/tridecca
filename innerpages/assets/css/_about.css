@@ -19,7 +19,7 @@
     }
     .about-pg-style1 .inner-navbar-style1 .nav-side a {
       color: #fff; }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .about-pg-style1 .inner-navbar-style1 {
       position: relative;
       background-color: #3aa548;
@@ -172,7 +172,7 @@
         margin: 10px; }
         .about-pg-style1 .tc-header-preview .float-icons a:hover {
           background-color: var(--color-orange1); }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .about-pg-style1 .tc-header-preview {
       overflow: hidden; }
       .about-pg-style1 .tc-header-preview .features-txt {
@@ -267,7 +267,7 @@
         font-size: 16px;
         text-transform: uppercase;
         color: #666; }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .about-pg-style1 .tc-about-style7 {
       padding: 50px 0;
       overflow: hidden; } }
@@ -443,7 +443,7 @@
             border-radius: 15px;
             padding: 5px 30px;
             text-transform: capitalize; }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .about-pg-style1 .tc-process-style2 {
       padding: 80px 0; }
       .about-pg-style1 .tc-process-style2 .imgs {
@@ -623,7 +623,7 @@
             color: #000;
             font-weight: 500;
             font-size: 12px; }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .about-pg-style1 .tc-projects-style2 {
       padding-top: 80px; }
       .about-pg-style1 .tc-projects-style2 .tabs-links .nav-pills .nav-link {
@@ -662,6 +662,6 @@
         align-items: end;
         margin: 15px 0;
         min-height: 90px; }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1100px) {
     .about-pg-style1 .tc-awards-style2 {
       padding: 80px 0; } }

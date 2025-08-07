@@ -67,7 +67,7 @@
       line-height: 72px;
       color: #000; }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1100px) {
   .tc-testimonials-style7 {
     padding: 0 !important; }
     .tc-testimonials-style7 .testi-card h4 {
